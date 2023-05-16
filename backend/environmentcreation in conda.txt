@@ -1,0 +1,31 @@
+
+ENIVIRONMENT LIST
+===============================
+conda info --envs
+
+CREATING ENVIRONMENT
+==================================
+conda create -n flask python
+
+ACTIVATING ENVIRONMENT
+=================================
+conda activate ENVIRONMENT NAME
+
+
+RUNING SERVER
+=============================
+python manage.py runserver
+
+
+DATABASE MIGRATION
+=================================
+python manage.py migrate
+python manage.py makemigrations
+python manage.py showmigrations
+
+
+STARTING DATABASE
+=================================
+
+
+pip list --format=freeze > requirements.txt
